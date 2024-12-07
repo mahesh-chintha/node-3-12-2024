@@ -4,7 +4,7 @@ var cors=require('cors')
 app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 
-app.post('/data',(req,res)=>{
+app.get('/data',(req,res)=>{
 
  console.log(req.body)
 
